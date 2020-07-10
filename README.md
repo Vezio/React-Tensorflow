@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker Prod
+Build the image.
+
+`docker build -f Dockerfile.prod -t react-tensorflow-image:latest .`
+
+Run the image as a container (instantiate the image).
+
+`docker run -it -p 80:80 --rm react-tensorflow-image:latest`
+
 ## Available Scripts
 
 In the project directory, you can run:
