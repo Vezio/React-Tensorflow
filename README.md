@@ -1,3 +1,6 @@
+# This project is paused
+- Currently contains the start of the webapp. No Tensorflow _stuff_ has been added yet.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Docker Prod
